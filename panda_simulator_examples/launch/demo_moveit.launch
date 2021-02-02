@@ -23,7 +23,7 @@
 
   <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
   <include file="$(find panda_moveit_config)/launch/planning_context.launch">
-    <arg name="load_gripper" value="$(arg load_gripper)"/>
+    <!-- <arg name="load_gripper" value="$(arg load_gripper)"/> -->
   </include>
 
 <arg unless="$(arg debug)" name="launch_prefix" value="" />
