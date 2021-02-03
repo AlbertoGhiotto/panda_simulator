@@ -10,6 +10,10 @@ Latest Stable Release (ROS Melodic): [![GitHub release (latest by date)](https:/
 
 *(version 1.0.0)* - **Now Supports [MoveIt!](https://moveit.ros.org/)** (See [version log](https://github.com/justagist/panda_simulator/blob/melodic-devel/versionLog.md) for details)
 
+- 3/2/2021
+
+Modifying this package to develop a custom simulation with obstacles 
+
 ## Features
 
 - Low-level *controllers* (joint position, velocity, torque) available that can be controlled through ROS topics (including position control for gripper) or [Python API][fri-repo].
