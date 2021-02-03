@@ -6,7 +6,7 @@
   <arg name="use_custom_action_servers" default="true"/>
   <arg name="start_moveit" default="false"/>
   <arg name="load_demo_planning_scene" default="false"/>
-  <arg name="force_neutral_pose" default="true"/> <!-- Use a separate script to send robot to the neutral pose in the beginning of simulation -->
+  <arg name="force_neutral_pose" default="false"/> <!-- Use a separate script to send robot to the neutral pose in the beginning of simulation -->
   
   <arg name="paused" default="false"/>
   <arg name="use_sim_time" default="true"/>
@@ -25,13 +25,23 @@
   <arg name="load_gazebo" default="true"/>
 
   <!-- This argument sets the initial joint states -->
-  <arg name="initial_joint_states"
+  <!-- <arg name="initial_joint_states"
     default=" -J panda::panda_joint1 0.000
               -J panda::panda_joint2 -0.785
               -J panda::panda_joint3 0.0
               -J panda::panda_joint4 -2.356
               -J panda::panda_joint5 0.0
               -J panda::panda_joint6 1.57
+              -J panda::panda_joint7 0.785"/> -->
+
+  <!-- This argument sets the initial joint states -->
+  <arg name="initial_joint_states"
+    default=" -J panda::panda_joint1 0.000
+              -J panda::panda_joint2 -1.7628
+              -J panda::panda_joint3 0.0
+              -J panda::panda_joint4 -2.5
+              -J panda::panda_joint5 0.0
+              -J panda::panda_joint6 2.3
               -J panda::panda_joint7 0.785"/>
 
   <rosparam command="load" file="$(find panda_gazebo)/config/robot_details.yaml"/>
