@@ -28,8 +28,13 @@
     <!-- Goal -->
     <include>
       <uri>model://my_goal</uri>
-      <!-- <pose>4 0 0.5 0 0 1.55</pose> -->
+      <pose>1 0.3 0.75 0 0 0</pose>
     </include>
+
+    <!-- <include>
+      <uri>model://my_goal</uri>
+      <pose>1 -0.3 0.5 0 0 0</pose>
+    </include> -->
 
     <include>
       <uri>model://grey_wall</uri>
