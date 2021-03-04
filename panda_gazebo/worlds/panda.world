@@ -41,8 +41,18 @@
       <pose>2 0 0 0 0 1.55</pose>
     </include>
 
-    <include>
+    <!-- <include>
       <uri>model://mailbox</uri>
+      <pose>0.5 0 0 0 0 1.55</pose>
+    </include> -->
+
+     <include>
+      <uri>model://my_bookshelf</uri>
+      <pose>0.5 +1 0 0 0 1.55</pose>
+    </include>
+
+    <include>
+      <uri>model://my_bookshelf</uri>
       <pose>0.5 0 0 0 0 1.55</pose>
     </include>
 
